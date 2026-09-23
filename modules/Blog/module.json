@@ -1,0 +1,17 @@
+{
+    "$schema": "../../vendor/alizharb/laravel-modular/resources/schemas/module.schema.json",
+    "name": "Blog",
+    "description": "",
+    "version": "1.0.0",
+    "removable": true,
+    "disableable": true,
+    "authors": [
+        {
+            "name": "Ali Harb",
+            "email": "harbzali@gmail.com"
+        }
+    ],
+    "namespace": "Modules\\Blog\\",
+    "provider": "Modules\\Blog\\Providers\\BlogServiceProvider",
+    "requires": []
+}

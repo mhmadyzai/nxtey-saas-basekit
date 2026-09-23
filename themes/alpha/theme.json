@@ -1,0 +1,61 @@
+{
+    "$schema": "https://raw.githubusercontent.com/alizharb/laravel-themer/main/resources/schemas/theme.schema.json",
+    "name": "alpha",
+    "slug": "alpha",
+    "description": "Alpha theme for tenants",
+    "version": "1.0.0",
+    "author": "Nxtey @ Deep",
+    "pwa": {
+        "name": "NxtSaaSNet Alpha",
+        "short_name": "Alpha",
+        "description": "Alpha tenant application",
+        "theme_color": "#059669",
+        "background_color": "#ffffff",
+        "display": "standalone",
+        "orientation": "portrait",
+        "start_url": "/blog",
+        "scope": "/",
+        "icons": [
+            { "src": "/themes/alpha/pwa/icon-192.png", "sizes": "192x192", "type": "image/png" },
+            { "src": "/themes/alpha/pwa/icon-512.png", "sizes": "512x512", "type": "image/png" },
+            { "src": "/themes/alpha/pwa/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+        ]
+    },
+    "tags": [
+        "modern",
+        "responsive"
+    ],
+    "asset_path": "themes/alpha",
+    "parent": null,
+    "screenshots": [
+		{
+			"src": "/themes/alpha/resources/assets/screenshots/screenshot-light.png",
+			"sizes": "1280x720",
+			"type": "image/png",
+			"form_factor": "wide",
+			"label": "Alpha on desktop"
+		},
+		{
+			"src": "/themes/alpha/resources/assets/screenshots/screenshot-light.png",
+			"sizes": "720x1280",
+			"type": "image/png",
+			"form_factor": "narrow",
+			"label": "Alpha on mobile"
+		}
+	],
+    "removable": true,
+    "disableable": true,
+    "requires": {
+        "themes": [],
+        "modules": [],
+        "packages": {}
+    },
+    "conflicts": [],
+    "provides": [],
+    "tokens": {
+        "color.primary": "#2563eb",
+        "color.background": "#ffffff",
+        "radius.card": "1rem"
+    },
+    "hooks": {}
+}

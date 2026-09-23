@@ -1,0 +1,17 @@
+{
+    "$schema": "../../vendor/alizharb/laravel-modular/resources/schemas/module.schema.json",
+    "name": "{{name}}",
+    "description": "",
+    "version": "1.0.0",
+    "removable": true,
+    "disableable": true,
+    "authors": [
+        {
+            "name": "{{authorName}}",
+            "email": "{{authorEmail}}"
+        }
+    ],
+    "namespace": "Modules\\{{name}}\\",
+    "provider": "Modules\\{{name}}\\Providers\\{{name}}ServiceProvider",
+    "requires": []
+}

@@ -1,0 +1,32 @@
+{
+    "name": "alizharb/cms",
+    "description": "Cms Module",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ali Harb",
+            "email": "harbzali@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+        "app/Support/helpers.php"
+		],
+		"psr-4": {
+            "Modules\\Cms\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Cms\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Cms\\Providers\\CmsServiceProvider"
+            ]
+        }
+    }
+}

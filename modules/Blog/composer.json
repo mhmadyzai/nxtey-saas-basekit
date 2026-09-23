@@ -1,0 +1,29 @@
+{
+    "name": "alizharb/blog",
+    "description": "Blog Module",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ali Harb",
+            "email": "harbzali@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Modules\\Blog\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Blog\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Blog\\Providers\\BlogServiceProvider"
+            ]
+        }
+    }
+}
